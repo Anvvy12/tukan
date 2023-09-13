@@ -1,0 +1,79 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 100%;
+  border-spacing: 0 20px;
+}
+
+.table-head {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.table-body {
+  border: 1px solid #c6c9f8;
+}
+
+.table-row {
+  border-spacing: 0 20px;
+}
+
+.table-data,
+.tada-head {
+  border: 1px solid #c6c9f8;
+  padding: 8px; /* Регулируйте отступы вокруг контента по вашему усмотрению */
+}
+
+.chat-button {
+  border-radius: 15px;
+  font-size: 15px;
+  line-height: 22.5px;
+  background-color: #c6c9f8;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.name {
+  min-width: 138px;
+}
+
+.online {
+  min-width: 138px;
+}
+
+.photo {
+  min-width: 138px;
+}
+.age {
+  min-width: 38px;
+}
+
+.btn {
+  min-width: 70px;
+}
+
+@media (max-width: 680px) {
+  .tada-head {
+    display: none;
+  }
+  .table-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .tada-head {
+    display: none;
+  }
+  .table-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
