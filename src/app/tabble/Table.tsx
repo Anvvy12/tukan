@@ -19,6 +19,7 @@ const Table: React.FC = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       const users = await getUsers();
+      console.log(users);
       setUsers(users);
     };
     fetchUsers();

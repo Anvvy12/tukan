@@ -23,7 +23,7 @@ const Main: React.FC = () => {
         </div>
         <div className="video-container">
           <iframe
-            src="https://www.youtube.com/watch?v=RK1K2bCg4J8&t=2414s"
+            src="https://www.youtube.com/embed/RK1K2bCg4J8"
             className="video"
           ></iframe>
         </div>

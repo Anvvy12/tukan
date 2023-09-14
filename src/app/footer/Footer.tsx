@@ -3,7 +3,7 @@ import "./footer.scss";
 const Footer: React.FC = () => {
   return (
     <footer className="footer">
-      <div className="div"></div>
+      <nav className="footer-nav"></nav>
     </footer>
   );
 };
